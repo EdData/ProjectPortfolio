@@ -38,3 +38,5 @@ for x in range(1, 400):
 #Converted into a data fram and extracted as a CSV file using pandas.
 df = pd.DataFrame(postList)
 df.to_csv('ReedJobs.csv', index=False, encoding='utf-8')
+
+#By Edward Renton
