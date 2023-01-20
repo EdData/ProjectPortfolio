@@ -303,6 +303,9 @@ CREATE VIEW V_Comparison_Salary_Price_TSold AS
 	ON X.Year_Date = Y.Year_Date AND X.code = Y.code;
 
 
+<img width="1187" alt="V_Comparison_Salary_Price_TSold" src="https://user-images.githubusercontent.com/119752965/213716235-9770752e-77dc-437c-be85-a139dc3cd1e7.png">
+
+
 -- From this data, looking at the year 2002. The change in the number of houses being sold (T_Sold_Change column) from the previous year did increase,
 -- but did not have the highest change percentage wise compared to the other years, that would be year ending 2006. 
 
@@ -468,6 +471,9 @@ CREATE VIEW V_PriceToIncome_HomeownershipRate AS
 		Year_Date, m.area;
 
 
+<img width="1026" alt="V_JobRatios_HousingPrice" src="https://user-images.githubusercontent.com/119752965/213716436-6ae06aff-ca2f-4e0d-9b08-b8150b9a30ab.png">
+
+
 -- Price-to-Income
 
 -- At the year end of 2001, the Price-to-Income ratio is relatively lower than the other years (4.531),
@@ -621,6 +627,9 @@ CREATE VIEW V_Population_HousingAvailability_HousingPrice AS
 	ORDER BY Year_Date ASC;
 
 
+<img width="1087" alt="V_Population_HousingAvailability_HousingPrice" src="https://user-images.githubusercontent.com/119752965/213716374-737960e7-bb57-4458-b6b2-b743e8d74675.png">
+
+
 -- Looking at the years from 2001-2018. 
 -- Not including what we discovered to be the years where England was recovering from the recession (2008-2013).
 
@@ -769,6 +778,9 @@ CREATE VIEW V_JobRatios_HousingPrice AS
 	GROUP BY
 		Year_Date, m.area
 	ORDER BY Year_Date ASC;
+
+
+<img width="1051" alt="View_PriceToIncome_HomeownershipRate" src="https://user-images.githubusercontent.com/119752965/213716406-a5ad94be-ea8b-4940-b777-3bf0868a9bb2.png">
 
 
 -- From this data we can see that the Job-Density decreased as there was an increase in the Job-Area ratio.
