@@ -1158,7 +1158,7 @@ FROM ReedJobs;
 -- This shows result shows the row number of job posts with the exact same Salary, Company name, job title
 -- and description.
 
--- I will use a CTE to see the posts with row number greater than 2 to see how many duplicates are
+-- I will use a CTE to see the posts with row number greater than 1 to see how many duplicates are
 -- in this data set.
 
 
@@ -1178,7 +1178,7 @@ SELECT COUNT(*)
 FROM
 	Row_CTE
 WHERE
-	row_num > 2;
+	row_num > 1;
 
 
 -- As an analyst may want to see which companies post more frequently,
